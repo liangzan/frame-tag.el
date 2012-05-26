@@ -1,6 +1,9 @@
-# window-tag.el
+# frame-tag.el
 
-This is a emacs script that attaches a unique number to each emacs window. It acts as an identifier. This allows fast switching by M-<num>
+frame-tag is a minor mode that allows you to switch to frames using M-1 through M-9.
+Frames are tagged in order. The leftmost frame starts from 0.
+
+To switch to the leftmost frame, press M-1
 
 ## License
 
