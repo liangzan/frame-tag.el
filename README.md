@@ -20,6 +20,12 @@ Download frame-tag.el and add this to your .emacs file
     (require 'frame-tag)
     (frame-tag-mode 1)
 
+### Marmalade
+
+The package is added to the [marmalade](http://marmalade-repo.org/) repositories
+
+    M-x package-install frame-tag
+
 ## License
 
 Copyright (c) 2012 Wong Liang Zan. GPL v3

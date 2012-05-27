@@ -1,4 +1,4 @@
-;; frame-tag.el --- Minor mode that assigns a unique number to each frame for easy switching
+;;; frame-tag.el --- Minor mode that assigns a unique number to each frame for easy switching
 
 ;; Copyright (C) 2012 Wong Liang Zan
 
@@ -106,3 +106,5 @@
   nil nil frame-tag-keymap :global t)
 
 (provide 'frame-tag)
+
+;;; frame-tag.el ends here
