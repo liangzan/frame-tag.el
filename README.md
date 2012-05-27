@@ -1,10 +1,10 @@
 # frame-tag.el
 
-frame-tag-mode is an Emacs minor mode that allows you to switch to frames using the key bindings M-1 through M-9.
+frame-tag-mode is an Emacs minor mode that allows you to switch to [frames](http://www.gnu.org/software/emacs/manual/html_node/emacs/Frames.html) using the key bindings M-1 through M-9.
 
 ## Usage
 
-Frames are tagged in order. The top leftmost frame starts from 0. The next frame gets 1 and so on.
+Frames are tagged in order. The top leftmost frame starts from 1. The next frame gets 2 and so on.
 
 To switch to the leftmost frame, press M-1
 
