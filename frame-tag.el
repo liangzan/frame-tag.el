@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2012 Wong Liang Zan
 
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Keywords: frame, movement
 ;; Author: Wong Liang Zan <zan@liangzan.net>
 ;; URL: http://github.com/liangzan/frame-tag.el
