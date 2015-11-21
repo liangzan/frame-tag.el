@@ -6,6 +6,7 @@
 ;; Keywords: frame, movement
 ;; Author: Wong Liang Zan <zan@liangzan.net>
 ;; URL: http://github.com/liangzan/frame-tag.el
+;; Package-Requires: ((cl-lib "0.5"))
 
 ;; This file is not part of GNU Emacs.
 
@@ -39,7 +40,7 @@
 
 ;;; Code:
 
-(eval-when-compile (require 'cl))
+(require 'cl-lib)
 
 (defun frame-tag-frame-left-position (frm)
   "Returns the value of the left parameter of the frame"
@@ -66,8 +67,8 @@
 
 (defun frame-tag-find-index-position (index)
   "Given the index, returns the position from the sorted relative postions"
-  (position (nth index (frame-tag-frames-sorted-position))
-	    (frame-tag-frames-relative-position)))
+  (cl-position (nth index (frame-tag-frames-sorted-position))
+               (frame-tag-frames-relative-position)))
 
 (defun frame-tag-find-frame (index)
   "Finds the frame given the index"
