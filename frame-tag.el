@@ -35,7 +35,7 @@
 ;;; Installation
 
 ;; (add-to-list 'load-path "/path/to/frame-tag")
-;; (require 'frame-numbering)
+;; (require 'frame-tag)
 ;; (frame-tag-mode 1)
 
 ;;; Code:
